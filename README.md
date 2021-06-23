@@ -10,8 +10,8 @@
 # Usage
 All the data used for training our models has been prepared in this repository. All you have to do is cloning it. Then you can simply change into the code subdirectory and run the following command to start training for the first and second layers.
 
-* `python denies.py -l 1` or `./denies.py -l 1`
-* `python denies.py -l 2` or `./denies.py -l 2`
+* `python senies.py -l 1` or `./senies.py -l 1`
+* `python senies.py -l 2` or `./senies.py -l 2`
 
 
 

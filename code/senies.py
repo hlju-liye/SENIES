@@ -188,7 +188,7 @@ def ten_times_cross_validation(train_pos_seqs, train_neg_seqs,
 			val_loader = DataLoader(dataset = val_dataset, batch_size = len(val_index), shuffle = True)
 
 			test_dataset = TensorDataset(test_onehot, test_shape, test_kmer, test_label)
-			test_loader = DataLoader(dataset = test_dataset, batch_size = layer_index * 200, shuffle = False)
+			test_loader = DataLoader(dataset = test_dataset, batch_size = 400 / layer_index, shuffle = False)
 
 			onehot_model = Onehot()
 			shape_model = Shape()

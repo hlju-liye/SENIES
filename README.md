@@ -1,5 +1,5 @@
-# DENIES
- DENIES is a deep learning based two-layer predictor for enhancing the identification of enhancers and their strength by utilizing DNA shape information beyond two common sequence-derived features, namely kmer and one-hot.
+# SENIES
+ SENIES is a deep learning based two-layer predictor for enhancing the identification of enhancers and their strength by utilizing DNA shape information beyond two common sequence-derived features, namely kmer and one-hot.
 
 # Requirements
 * python = 2.7

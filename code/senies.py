@@ -230,7 +230,7 @@ def ten_times_cross_validation(train_pos_seqs, train_neg_seqs,
 
 		for i, predicts in enumerate(all_predicts):
 			print('=' * 20 + feature_names[i]+ ' ' + '=' * 20)
-			temp = torch.zeros(size = (1, 400))
+			temp = torch.zeros(size = (1, 400 / layer_index))
 
 			for labels in predicts:
 				temp += labels
